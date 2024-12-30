@@ -1,0 +1,162 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+}
+#courses-section{
+    background-color: whitesmoke;
+    width: 1000px;
+    padding: 50px;
+}
+.courses-area-container{
+    width: 1000px;
+    margin: auto;
+  
+}
+.courses-area-parent{
+    display: flex;
+    justify-content: space-between;
+   
+    
+}
+.courses-title{
+    text-align: center;
+    font-size: 35px;
+    padding: 50px 0;
+}
+.single-course{
+    width: 320px;
+    border-radius:20px;
+    border: 1px solid rgb(128, 128, 128);
+
+}
+.single-course-img{
+    width: 320px;
+  
+   
+}
+.single-course-img>a>img{
+    border-radius: 20px 20px 0 0;
+    max-width: 100%;   
+
+}
+
+.course-content{  
+    max-width: 100%;
+    padding: 0 10px;
+    border-radius: 0 0 20px 20px;
+}
+.course-content>a{
+    text-decoration: none;
+    color: #df6812;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: Inter, sans-serif;
+    display: inline-block;
+    margin: 10px 0;    
+}
+.course-content>h3{
+    font-size: 20px;
+    font-weight: 700;
+    font-family: Inter, sans-serif;
+    color: #1f1e1e;  
+}
+.course-review-student{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    color: #787a82;
+    margin: 10px 0;
+}
+.rating{
+    color: #ffa534;
+}
+.course-fee-discount{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 700;
+    color: #434242;
+    margin: 20px 0;
+}
+.btn{
+    color: darkmagenta;
+    padding: 10px;
+    border: 1px solid #df6812;
+    border-radius: 10px;
+    transition: 0.5s;
+
+}
+.btn:hover{
+    background-color:#df6812 ;
+    color: white;
+    /* font-weight: 700; */
+    cursor: pointer;
+}
+/* Css for products section */
+#products-section{
+    background-color: whitesmoke;
+    width: 1000px;
+    padding: 50px;
+}
+.products-area-container{
+    width: 1000px;
+    margin: auto;
+}
+.products-title{
+    text-align: center;
+    margin: 20px;
+
+}
+.products-title>p{
+    font-size: 15px;
+    margin: 10px;
+}
+.products-area-parent{
+    display: flex;
+    justify-content: space-between;
+}
+.single-product{
+    width: 180px;
+    background-color: white;
+    padding: 20px 0;
+}
+.single-product>button{
+   background-color: darkmagenta;
+   color: white;
+   padding: 0 10px;
+   border-radius: 0 20px 20px 0;
+   border: none;
+   margin-top: 10px;
+}
+.single-product-img>a>img{
+    width: 100%;
+}
+.product-content>a{
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    text-align: justify;
+    margin: 10px;
+
+}   
+.product-content>a:hover{
+    text-decoration: underline;
+    color: #ef4a23;
+    cursor: pointer;
+}
+.product-price{
+    margin: 10px;
+}
+.price-one{
+    color: #d51e0b;
+    font-size: 17px;
+    font-weight: 600;
+}
+.price-two{
+    color: #666;
+    font-size: 12px;
+    font-weight: 600;
+    text-decoration: line-through;
+    margin-left: 10px;
+}
